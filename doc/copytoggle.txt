@@ -1,0 +1,64 @@
+*copytoggle.txt*    Vim's pastetoggle for copying
+
+Author:     Tim Schumacher <tim@timakro.de>
+License:    GPLv3
+Version:    1.0.0
+
+==============================================================================
+CONTENTS                                                 *copytoggle-contents*
+
+    1. Features .................................... |copytoggle-features|
+    2. License ..................................... |copytoggle-license|
+    3. Bugs ........................................ |copytoggle-bugs|
+    4. Contributing ................................ |copytoggle-contributing|
+    5. Changelog ................................... |copytoggle-changelog|
+
+==============================================================================
+1. Features                                              *copytoggle-features*
+
+You know the issue if you have listchars or showbreak configured, or use line
+numbers. Copying code from vim into another application results in a mess
+because all those formatting characters are included.
+
+Use the following mapping to toggle those Vim features on and off:
+
+    nmap <F3> <Plug>copytoggle
+
+There are two additional mappings in case you want to turn it on and off
+explicitly instead of toggling.
+
+    nmap <F10> <Plug>CopytoggleOn
+    nmap <F11> <Plug>CopytoggleOff
+
+To disable the 'copytoggle on' message set this variable:
+
+    let g:copytoggle_notify = 0
+
+==============================================================================
+2. License                                                *copytoggle-license*
+
+Copyright (C) 2018 Tim Schumacher
+
+License GPLv3+: GNU GPL version 3 or later http://gnu.org/licenses/gpl.html.
+
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent per‐mitted by law.
+
+==============================================================================
+3. Bugs                                                      *copytoggle-bugs*
+
+Please report bugs on the GitHub issue tracker:
+http://github.com/timakro/vim-copytoggle/issues
+
+==============================================================================
+4. Contributing                                      *copytoggle-contributing*
+
+If you want to contribute feel free to fork the copytoggle.vim repository on
+GitHub and send a pull request:
+http://github.com/timakro/vim-copytoggle
+
+==============================================================================
+5. Changelog                                            *copytoggle-changelog*
+
+v1.0.0
+    * Initial stable release
