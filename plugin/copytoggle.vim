@@ -20,10 +20,6 @@ let s:save = [
     \ ['number', 0, 0]
     \ ]
 
-function s:SID()
-    return matchstr(expand('<sfile>'), '<SNR>\zs\d\+\ze_SID$')
-endfun
-
 function s:On()
     if s:state
         return
