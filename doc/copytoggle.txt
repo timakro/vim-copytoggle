@@ -2,7 +2,7 @@
 
 Author:     Tim Schumacher <tim@timakro.de>
 License:    GPLv3
-Version:    1.0.0
+Version:    1.0.1
 
 ==============================================================================
 CONTENTS                                                 *copytoggle-contents*
@@ -60,5 +60,7 @@ http://github.com/timakro/vim-copytoggle
 ==============================================================================
 5. Changelog                                            *copytoggle-changelog*
 
+v1.0.1
+    * Fix CopytoggleOn, CopytoggleOff
 v1.0.0
     * Initial stable release

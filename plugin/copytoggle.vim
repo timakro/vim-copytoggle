@@ -1,7 +1,7 @@
 " copytoggle.vim - Vim's pastetoggle for copying
 " Author:   Tim Schumacher <tim@timakro.de>
 " License:  GPLv3
-" Version:  1.0.0
+" Version:  1.0.1
 
 if exists("g:loaded_copytoggle")
     finish
@@ -25,6 +25,9 @@ function s:SID()
 endfun
 
 function s:On()
+    if s:state
+        return
+    endif
     for option in s:save
         execute 'let option[2] = &'.option[0]
         execute 'let &'.option[0].' = option[1]'
@@ -32,9 +35,13 @@ function s:On()
     if g:copytoggle_notify
         echo 'copytoggle on'
     endif
+    let s:state = 1
 endfun
 
 function s:Off()
+    if !s:state
+        return
+    endif
     for option in s:save
         execute 'let untouched = &'.option[0].' == option[1]'
         if untouched
@@ -44,6 +51,7 @@ function s:Off()
     if g:copytoggle_notify
         echo ''
     endif
+    let s:state = 0
 endfun
 
 function s:Toggle()
