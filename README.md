@@ -4,12 +4,18 @@ Vim's pastetoggle for copying
 
 ## Overview
 
-You know the issue if you have listchars or showbreak configured, or use
-line numbers. Copying code from vim into another application results in a
-mess because all those formatting characters are included. copytoggle.vim
-allows you to set a mapping to toggle those features off while copy-pasting:
+copytoggle.vim allows you to disable esthetical characters like line numbers
+with a single keypress for painless copy-pasting:
 
     nmap <F3> <Plug>copytoggle
+
+Currently the following features are supported:
+
+* listchars
+* linebreak
+* showbreak
+* line numbers
+* conceal
 
 ![copytoggle.vim demo](https://misc.timakro.de/vim-copytoggle.png)
 
