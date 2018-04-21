@@ -15,6 +15,7 @@ Currently the following features are supported:
 * linebreak
 * showbreak
 * line numbers
+* foldcolumn
 * conceal
 
 ![copytoggle.vim demo](https://misc.timakro.de/vim-copytoggle.png)

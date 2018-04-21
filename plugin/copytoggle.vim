@@ -1,7 +1,7 @@
 " copytoggle.vim - Vim's pastetoggle for copying
 " Author:   Tim Schumacher <tim@timakro.de>
 " License:  GPLv3
-" Version:  1.1.0
+" Version:  1.2.0
 
 if exists("g:loaded_copytoggle")
     finish

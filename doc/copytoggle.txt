@@ -2,7 +2,7 @@
 
 Author:     Tim Schumacher <tim@timakro.de>
 License:    GPLv3
-Version:    1.1.0
+Version:    1.2.0
 
 ==============================================================================
 CONTENTS                                                 *copytoggle-contents*
@@ -24,6 +24,7 @@ features are supported:
 * linebreak
 * showbreak
 * line numbers
+* foldcolumn
 * conceal
 
 Use the following mapping to toggle those Vim features on and off:
@@ -66,6 +67,8 @@ http://github.com/timakro/vim-copytoggle
 ==============================================================================
 5. Changelog                                            *copytoggle-changelog*
 
+v1.2.0
+    * Support for foldcolumn feature
 v1.1.0
     * Support for conceal feature
 v1.0.1
