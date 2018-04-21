@@ -18,6 +18,7 @@ let s:save = [
     \ ['linebreak', 0, 0],
     \ ['showbreak', '', 0],
     \ ['number', 0, 0],
+    \ ['foldcolumn', 0, 0],
     \ ['conceallevel', 0, 0]
     \ ]
 
