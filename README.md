@@ -18,7 +18,7 @@ Currently the following features are supported:
 * foldcolumn
 * conceal
 
-![copytoggle.vim demo](https://misc.timakro.de/vim-copytoggle.png)
+![copytoggle.vim demo](https://files.timakro.de/vim-copytoggle.png)
 
 ## Requirements
 
