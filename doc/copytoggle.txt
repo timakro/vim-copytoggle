@@ -26,6 +26,7 @@ features are supported:
 * line numbers
 * foldcolumn
 * conceal
+* signcolumn
 
 Use the following mapping to toggle those Vim features on and off:
 

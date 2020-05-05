@@ -17,6 +17,7 @@ Currently the following features are supported:
 * line numbers
 * foldcolumn
 * conceal
+* signcolumn
 
 ![copytoggle.vim demo](https://files.timakro.de/vim-copytoggle.png)
 

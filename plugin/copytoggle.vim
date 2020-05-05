@@ -19,7 +19,8 @@ let s:save = [
     \ ['showbreak', '', 0],
     \ ['number', 0, 0],
     \ ['foldcolumn', 0, 0],
-    \ ['conceallevel', 0, 0]
+    \ ['conceallevel', 0, 0],
+    \ ['signcolumn', 'no', 0]
     \ ]
 
 function s:On()
